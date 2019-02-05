@@ -9,5 +9,62 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #37373A;
+    display: flex;
+    flex-direction: column; /* this says how the flex items will align (e.g. 'row') */
+    align-items: center; /* These next two properties center the flex items */
+    justify-content: center;
+}
+
+@media screen and (min-width: 925px) {
+  .pslo-courses-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 53em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .style li a {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction:column;
+  }
+}
+
+#main-title {
+  color: #3F9C92;
+  font-family: 'Aldrich', monospace;
+  text-align: center;
+  font-size: 4rem;
+  background-color: #19191b;
+}
+
+#style {
+  position: fixed;
+  align-content: stretch;
+  background-color: #19191b;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+#style ul {
+  list-style-type: none;
+  display: inline-flex;
+  color: #3F9C92;
+}
+
+#style li {
+}
+
+#style li a {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: #3F9C92;
+  font-family: 'Aldrich', monospace;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 0 8em;
 }
