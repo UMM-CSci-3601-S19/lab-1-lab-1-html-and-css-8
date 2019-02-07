@@ -45,6 +45,16 @@ body {
   align-items: center;
 }
 
+.section {
+  background-color: #bdf85b;
+  color: #27d213;
+  border-radius: 20px;
+  padding: 20px;
+  border: 5px solid;
+  margin: 10px;
+  max-width: 48em;
+}
+
 #style ul {
   list-style-type: none;
   margin: 0;
