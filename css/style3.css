@@ -31,6 +31,10 @@ body {
   /*color: #66bc84; use later */
 }
 
+h2 {
+  font-family: 'Patua One', sans-serif;
+}
+
 .faculty-container {
   display: flex;
   flex-direction: column;
@@ -47,12 +51,17 @@ body {
 
 .section {
   background-color: #bdf85b;
-  color: #27d213;
+  color: #28a816;
   border-radius: 20px;
   padding: 20px;
   border: 5px solid;
   margin: 10px;
   max-width: 48em;
+}
+
+#courses { /*if not for this, this area would have the colors and background defined in .section */
+  background-color: #46b29f;
+  color: #324e5f;
 }
 
 #style ul {
