@@ -117,6 +117,19 @@ h2 {
   color: #324e5f;
 }
 
+#validation {
+  font-size: 80%;
+  background-color: #72c8b6;
+  color: #a93d50;
+  padding: 25px;
+  font-family: 'Marcellus', sans-serif;
+}
+
+#courses ul li {
+  font-size: 2vh;
+  list-style-type: hebrew;
+}
+
 #style ul {
   list-style-type: none;
   margin: 0;
