@@ -31,6 +31,13 @@ body {
   /*color: #66bc84; use later */
 }
 
+.faculty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #style ul {
   list-style-type: none;
   margin: 0;
