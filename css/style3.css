@@ -37,6 +37,12 @@ h2 {
 
 #pslo ol {
   list-style-type: lower-greek;
+  font-size: 125%;
+  font-family: sans-serif;
+}
+
+#pslo ol li {
+  padding: 5px;
 }
 
 .faculty-container {
