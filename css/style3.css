@@ -17,7 +17,7 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #8f534e;
+  background-color: #a93d50;
 }
 
 #style li {
@@ -26,7 +26,7 @@ body{
 
 #style li a {
   display: block;
-  color: #79938f;
+  color: #72c8b6;
   text-align: center;
   padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
   text-decoration: none;
@@ -34,14 +34,14 @@ body{
 
 /* Change the link background color to #000 (black) on hover */
 #style li a:hover {
-  background-color: #79938f;
-  color: #8f534e;
+  background-color: #72c8b6;
+  color: #a93d50;
   text-decoration: underline;
 }
 
 #style {
   position: fixed;
-  background-color: #79938f;
+  background-color: #72c8b6;
   left: 0;
   right: 0;
   top: 0;
