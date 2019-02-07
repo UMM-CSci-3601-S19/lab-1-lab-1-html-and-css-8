@@ -39,7 +39,7 @@ body {
   align-content: center;
 }
 
-#main-title {
+#main-title { /* here we reference an element directly by id */
   background-color: #d9793e;
   color: #ead43e;
   text-align: center;
@@ -103,7 +103,7 @@ h2 {
   align-items: center;
 }
 
-.section {
+.section { /* here we use a class to set properties for all of the containers that use section, so we don't have to define them multiple times */
   background-color: #bdf85b;
   color: #28a816;
   border-radius: 20px;
@@ -141,7 +141,7 @@ h2 {
 }
 
 #style li {
-  float: right; /* here we change the positioning and relative ordering of elements in the nav bar */
+  float: right; /* #RULE here we change the positioning and relative ordering of elements in the nav bar */
 }
 
 #style li a {
