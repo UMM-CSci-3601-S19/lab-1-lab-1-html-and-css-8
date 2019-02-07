@@ -7,7 +7,169 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
-    padding: 30px;
-    background-color: #FFFFFFFF;
+/* aesthetic: beaches, ice cream
+   rules we want graded are indicated by #RULE in the comments
+ */
+
+body {
+  padding: 30px;
+  background-color: #e9dca2; /*to use in case our background image can't be found */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Beach-Palm-Trees-Wallpaper-4368x2912.jpg'); /* #RULE1 created a background image, which the other stylesheets don't have */
+}
+
+@media screen and (min-width: 925px) {
+  .pslo-courses-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 53em;
+  }
+}
+
+.pslo-courses-container {
+}
+
+#faculty-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#main-title { /* here we reference an element directly by id */
+  background-color: #d9793e;
+  color: #ead43e;
+  text-align: center;
+  font-family: 'Marcellus', sans-serif;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ead43e;
+  /*color: #66bc84; use later */
+}
+
+h2 {
+  font-family: 'Patua One', sans-serif;
+  text-align: center;
+  font-size: 200%;
+}
+
+#pslo ol {
+  list-style-type: lower-greek;
+  font-size: 125%;
+  font-family: sans-serif;
+}
+
+#pslo ol li {
+  padding: 5px;
+}
+
+#faculty {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+
+#faculty ul li {
+  display: inline-block;
+  padding: 30px;
+}
+
+#Elena, #KK, #Nic, #Peter { /* here we use grouping of ids to set the font-size property for all of them */
+  font-size: 150%;
+}
+
+.pic {
+  border: solid;
+  border-radius: 100%;
+  border-color: #28a816;
+}
+
+.office {
+  border: dotted;
+  border-width: 2px;
+  border-color: #28a816;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 80%;
+}
+
+.faculty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section { /* here we use a class to set properties for all of the containers that use section, so we don't have to define them multiple times */
+  background-color: #bdf85b;
+  color: #28a816;
+  border-radius: 20px;
+  padding: 20px;
+  border: 5px solid;
+  margin: 10px;
+  max-width: 48em;
+}
+
+#courses { /*if not for this, this area would have the colors and background defined in .section */
+  background-color: #46b29f;
+  color: #324e5f;
+}
+
+#validation {
+  background-color: #72c8b6;
+  border-radius: 20px;
+  border-style: ridge;
+  color: #a93d50;
+  padding: 25px;
+  font-family: 'Marcellus', sans-serif;
+}
+
+#courses ul li { /* here we use nesting */
+  font-size: 2vh; /* #RULE2: we scale the font size here with the viewport height */
+  list-style-type: hebrew;
+}
+
+#style ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a93d50;
+}
+
+#style li {
+  float: right; /* #RULE3 here we change the positioning and relative ordering of elements in the nav bar */
+}
+
+#style li a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  display: block;
+  color: #72c8b6;
+  text-align: center;
+  padding: 0 16px; /* #RULE4 adds spacing between items in the nav bar, but not above or below */
+  text-decoration: none;
+  text-transform: lowercase; /* #RULE5 here we make the list items lowercase by default, so we can capitalize the selected one when it's hovered */
+}
+
+/* on hover, we swap the background color and the font color, and we capitalize the selected item */
+#style li a:hover {
+  background-color: #72c8b6;
+  color: #a93d50;
+  text-transform: uppercase;
+}
+
+#style {
+  position: fixed;
+  background-color: #72c8b6;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
