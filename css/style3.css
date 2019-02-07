@@ -19,6 +19,14 @@ body {
   background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Beach-Palm-Trees-Wallpaper-4368x2912.jpg');
 }
 
+@media screen and (min-width: 925px) {
+  .pslo-courses-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 53em;
+  }
+}
+
 #main-title {
   background-color: #d9793e;
   color: #ead43e;
