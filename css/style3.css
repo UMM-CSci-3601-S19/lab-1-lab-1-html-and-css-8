@@ -27,6 +27,9 @@ body {
   }
 }
 
+.pslo-courses-container {
+}
+
 #faculty-list {
   padding-left: 0;
   display: flex;
@@ -50,6 +53,8 @@ body {
 
 h2 {
   font-family: 'Patua One', sans-serif;
+  text-align: center;
+  font-size: 200%;
 }
 
 #pslo ol {
@@ -91,13 +96,6 @@ h2 {
 }
 
 .faculty-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.pslo-courses-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
