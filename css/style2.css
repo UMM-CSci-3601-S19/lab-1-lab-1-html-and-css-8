@@ -32,6 +32,11 @@ body{
   }
 }
 
+.pslo-courses-container {
+  font-family: 'Aldrich', monospace;
+  color: #DDDACF;
+}
+
 #main-title {
   color: #3F9C92;
   font-family: 'Aldrich', monospace;
