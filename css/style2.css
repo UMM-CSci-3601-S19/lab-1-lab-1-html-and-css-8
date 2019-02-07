@@ -135,3 +135,7 @@ body{
   background-color: #37373A;
   font-size: 1.6rem;
 }
+#Nic , #KK {
+  transform: rotate(20deg); /* RULE FIVE use transform to rotate pictures */
+}
+
