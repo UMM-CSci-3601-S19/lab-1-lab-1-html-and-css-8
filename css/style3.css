@@ -7,9 +7,13 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
+body {
     padding: 30px;
-    background-color: #aaaaaa;
+    background-color: #e9dca2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #style ul {
@@ -21,7 +25,7 @@ body{
 }
 
 #style li {
-  float: right; /* here we change the positioning and ordering of elements in the nav bar */
+  float: right; /* here we change the positioning and relative ordering of elements in the nav bar */
 }
 
 #style li a {
@@ -30,7 +34,7 @@ body{
   display: block;
   color: #72c8b6;
   text-align: center;
-  padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
+  padding: 0 16px; /*adds spacing between items in the nav bar, but not above or below */
   text-decoration: none;
   text-transform: lowercase; /* here we make the list items lowercase by default, so we can capitalize the selected one when it's hovered */
 }
@@ -48,7 +52,6 @@ body{
   left: 0;
   right: 0;
   top: 0;
-  height: 55px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
