@@ -77,7 +77,7 @@ h2 {
   padding: 30px;
 }
 
-.name {
+#Elena, #KK, #Nic, #Peter { /* here we use grouping of ids to set the font-size property for all of them */
   font-size: 150%;
 }
 
