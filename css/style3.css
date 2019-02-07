@@ -118,8 +118,9 @@ h2 {
 }
 
 #validation {
-  font-size: 80%;
   background-color: #72c8b6;
+  border-radius: 20px;
+  border-style: ridge;
   color: #a93d50;
   padding: 25px;
   font-family: 'Marcellus', sans-serif;
