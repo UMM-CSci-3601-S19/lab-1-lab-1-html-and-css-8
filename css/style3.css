@@ -130,7 +130,7 @@ h2 {
 }
 
 #courses ul li { /* here we use nesting */
-  font-size: 2vh; /* bonus rule: we scale the font size here with the viewport height */
+  font-size: 2vh; /* #RULE2: we scale the font size here with the viewport height */
   list-style-type: hebrew;
 }
 
@@ -138,7 +138,7 @@ h2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: scroll; /* #RULE2 we handle overflow differently here. if the element takes up too much space, the user can scroll to find it */
+  overflow: hidden;
   background-color: #a93d50;
 }
 

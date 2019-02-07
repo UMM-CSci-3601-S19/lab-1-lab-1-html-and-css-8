@@ -26,6 +26,9 @@ settings.
 > at http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/;
 > yours will be at a different URL but should look somewhat similar.
 
+## Our website address is
+> https://umm-csci-3601-s19.github.io/lab-1-lab-1-html-and-css-8/
+
 ## "Running" your project
 To view your website, you should be able to simply open the `index.html` file in your browser of choice.
 (In most cases, 'double clicking' the file should do this. In IntelliJ IDEA, you can right click on the file,
