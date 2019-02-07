@@ -21,22 +21,25 @@ body{
 }
 
 #style li {
-  float: right; /*explore what happens if this is 'right' instead*/
+  float: right; /* here we change the positioning and ordering of elements in the nav bar */
 }
 
 #style li a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
   display: block;
   color: #72c8b6;
   text-align: center;
   padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
   text-decoration: none;
+  text-transform: lowercase; /* here we make the list items lowercase by default, so we can capitalize the selected one when it's hovered */
 }
 
-/* Change the link background color to #000 (black) on hover */
+/* on hover, we swap the background color and the font color, and we capitalize the selected item */
 #style li a:hover {
   background-color: #72c8b6;
   color: #a93d50;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 #style {
@@ -47,4 +50,5 @@ body{
   top: 0;
   height: 55px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
