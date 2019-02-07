@@ -64,15 +64,7 @@ body{
   text-align: center;
   color: #3F9C92;
   font-family: 'Aldrich', monospace;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   padding: 0 8em;
-}
-#pslo {
-  background-color: #1b1b1c;
-  font-family: 'Marcellus', sans-serif;
-}
-.section h2 {
-  color: #b3b3b5;
-  padding: 30px;
 }
