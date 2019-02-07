@@ -116,3 +116,6 @@ body{
   padding: 10px;
   width: 100%;
 }
+#pslo:hover , #courses:hover { /* id grouping */
+  background-color: #37373A;
+}
