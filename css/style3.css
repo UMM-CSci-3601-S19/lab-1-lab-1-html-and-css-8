@@ -7,7 +7,9 @@ use float to make something locate itself on the right or left
 
 */
 
-/* aesthetic: beaches, ice cream */
+/* aesthetic: beaches, ice cream
+   rules we want graded are indicated by #RULE in the comments
+ */
 
 body {
   padding: 30px;
@@ -16,7 +18,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Beach-Palm-Trees-Wallpaper-4368x2912.jpg');
+  background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Beach-Palm-Trees-Wallpaper-4368x2912.jpg'); /* #RULE1 created a background image, which the other stylesheets don't have */
 }
 
 @media screen and (min-width: 925px) {
@@ -128,7 +130,7 @@ h2 {
 }
 
 #courses ul li { /* here we use nesting */
-  font-size: 2vh;
+  font-size: 2vh; /* bonus rule: we scale the font size here with the viewport height */
   list-style-type: hebrew;
 }
 
@@ -136,12 +138,12 @@ h2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: scroll; /* #RULE2 we handle overflow differently here. if the element takes up too much space, the user can scroll to find it */
   background-color: #a93d50;
 }
 
 #style li {
-  float: right; /* #RULE here we change the positioning and relative ordering of elements in the nav bar */
+  float: right; /* #RULE3 here we change the positioning and relative ordering of elements in the nav bar */
 }
 
 #style li a {
@@ -150,9 +152,9 @@ h2 {
   display: block;
   color: #72c8b6;
   text-align: center;
-  padding: 0 16px; /*adds spacing between items in the nav bar, but not above or below */
+  padding: 0 16px; /* #RULE4 adds spacing between items in the nav bar, but not above or below */
   text-decoration: none;
-  text-transform: lowercase; /* here we make the list items lowercase by default, so we can capitalize the selected one when it's hovered */
+  text-transform: lowercase; /* #RULE5 here we make the list items lowercase by default, so we can capitalize the selected one when it's hovered */
 }
 
 /* on hover, we swap the background color and the font color, and we capitalize the selected item */
