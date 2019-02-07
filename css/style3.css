@@ -35,6 +35,10 @@ h2 {
   font-family: 'Patua One', sans-serif;
 }
 
+#pslo ol {
+  list-style-type: lower-greek;
+}
+
 .faculty-container {
   display: flex;
   flex-direction: column;
