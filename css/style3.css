@@ -24,6 +24,10 @@ body {
   color: #ead43e;
   text-align: center;
   font-family: 'Marcellus', sans-serif;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ead43e;
   /*color: #66bc84; use later */
 }
 
