@@ -36,6 +36,7 @@ body{
 #style li a:hover {
   background-color: #79938f;
   color: #8f534e;
+  text-decoration: underline;
 }
 
 #style {
