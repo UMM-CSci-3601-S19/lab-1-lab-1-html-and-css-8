@@ -38,6 +38,13 @@ body {
   align-items: center;
 }
 
+.pslo-courses-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #style ul {
   list-style-type: none;
   margin: 0;
