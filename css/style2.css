@@ -8,7 +8,6 @@ use float to make something locate itself on the right or left
 */
 
 body{
-    padding: 30px;
     background-color: #37373A;
     display: flex;
     flex-direction: column; /* this says how the flex items will align (e.g. 'row') */
@@ -24,7 +23,7 @@ body{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .style li a {
     padding: 0 50%;
     display: flex;
@@ -69,7 +68,7 @@ body{
 #style li {
 }
 
-#style li a {
+#style li a { /* nesting */
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -79,19 +78,41 @@ body{
   text-decoration: none;
 }
 .section {
-  border-radius: 25px;
+  border-radius: 5px;
   padding: 20px;
-  border: 5px solid;
+  border: 5px solid #3F9C92 ;
   margin: 10px;
-  max-width: 48em;
-  border-color: #3F9C92;
+  max-width: 80%;
   background-color: #414b51;
 }
 .pslo {
   color: #8ba2b5;
 }
-.section ul {
-  color: #8ba2b5;
-
+.pslo-courses-container{
+  float: right;
 }
 
+.section ul {
+  color: #8ba2b5;
+}
+.pic {
+  width: 140px;
+}
+#faculty {
+  width: 100%;
+}
+#faculty-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#faculty ul li {
+  float: left;
+  padding: 5%;
+}
+#validation {
+  background-color: #d5d6d2;
+  padding: 10px;
+  width: 100%;
+}
