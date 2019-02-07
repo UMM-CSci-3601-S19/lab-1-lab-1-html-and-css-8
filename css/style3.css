@@ -20,7 +20,7 @@ body {
 }
 
 @media screen and (min-width: 925px) {
-  .section {
+  .pslo-courses-container {
     display: flex;
     flex-direction: row;
     max-width: 53em;
@@ -74,6 +74,12 @@ h2 {
 
 .name {
   font-size: 150%;
+}
+
+.pic {
+  border: solid;
+  border-radius: 100%;
+  border-color: #28a816;
 }
 
 .office {
