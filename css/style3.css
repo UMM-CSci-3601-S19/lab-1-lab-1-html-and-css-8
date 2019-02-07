@@ -7,13 +7,24 @@ use float to make something locate itself on the right or left
 
 */
 
+/* aesthetic: beaches, ice cream */
+
 body {
-    padding: 30px;
-    background-color: #e9dca2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding: 30px;
+  background-color: #e9dca2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Beach-Palm-Trees-Wallpaper-4368x2912.jpg');
+}
+
+#main-title {
+  background-color: #d9793e;
+  color: #ead43e;
+  text-align: center;
+  font-family: 'Marcellus', sans-serif;
+  /*color: #66bc84; use later */
 }
 
 #style ul {
