@@ -11,7 +11,7 @@ use float to make something locate itself on the right or left
 
 body {
   padding: 30px;
-  background-color: #e9dca2;
+  background-color: #e9dca2; /*to use in case our background image can't be found */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,11 +20,20 @@ body {
 }
 
 @media screen and (min-width: 925px) {
-  .pslo-courses-container {
+  .section {
     display: flex;
     flex-direction: row;
     max-width: 53em;
   }
+}
+
+#faculty-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 #main-title {
