@@ -17,16 +17,16 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #8f534e;
 }
 
 #style li {
-  float: left; /*explore what happens if this is 'right' instead*/
+  float: right; /*explore what happens if this is 'right' instead*/
 }
 
 #style li a {
   display: block;
-  color: white;
+  color: #79938f;
   text-align: center;
   padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
   text-decoration: none;
@@ -34,12 +34,13 @@ body{
 
 /* Change the link background color to #000 (black) on hover */
 #style li a:hover {
-  background-color: #000;
+  background-color: #79938f;
+  color: #8f534e;
 }
 
 #style {
   position: fixed;
-  background-color: #7A0019;
+  background-color: #79938f;
   left: 0;
   right: 0;
   top: 0;
